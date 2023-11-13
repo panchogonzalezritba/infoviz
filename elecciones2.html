@@ -9,7 +9,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 1000vh; /* Esto asegura que el contenido esté centrado verticalmente incluso si no ocupa toda la altura de la ventana. */
+      height: 100vh;
       margin: 0;
     }
 
@@ -55,10 +55,10 @@
       var divElement = document.getElementById('viz1699906307704');
       var vizElement = divElement.getElementsByTagName('object')[0];
       if (divElement.offsetWidth > 800) {
-        vizElement.style.width = '5000px';
+        vizElement.style.width = '80%'; // Cambiado para que sea un porcentaje del ancho de la ventana
         vizElement.style.height = '1327px';
       } else if (divElement.offsetWidth > 500) {
-        vizElement.style.width = '5000px';
+        vizElement.style.width = '80%'; // Cambiado para que sea un porcentaje del ancho de la ventana
         vizElement.style.height = '1327px';
       } else {
         vizElement.style.width = '100%';
