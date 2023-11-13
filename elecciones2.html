@@ -19,6 +19,7 @@
 
     .tableauPlaceholder {
       position: relative;
+      max-width: 100%; /* Ajusta el ancho máximo del contenedor */
     }
 
     .tableauViz {
@@ -55,10 +56,10 @@
       var divElement = document.getElementById('viz1699906307704');
       var vizElement = divElement.getElementsByTagName('object')[0];
       if (divElement.offsetWidth > 800) {
-        vizElement.style.width = '80%'; // Cambiado para que sea un porcentaje del ancho de la ventana
+        vizElement.style.width = '100%'; // Hacer que sea el 100% del ancho del contenedor
         vizElement.style.height = '1327px';
       } else if (divElement.offsetWidth > 500) {
-        vizElement.style.width = '80%'; // Cambiado para que sea un porcentaje del ancho de la ventana
+        vizElement.style.width = '100%'; // Hacer que sea el 100% del ancho del contenedor
         vizElement.style.height = '1327px';
       } else {
         vizElement.style.width = '100%';
