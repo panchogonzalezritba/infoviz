@@ -1,37 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
-  <style>
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-
-    #content {
-      text-align: center;
-    }
-
-    .tableauPlaceholder {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      max-width: 1200px; /* Ajusta el ancho máximo del contenedor según tus necesidades */
-    }
-
-    .tableauViz {
-      width: 100%;
-      height: 100%;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centrado</title>
 </head>
 <body>
-  <div id="content">
+  <center>
+    <!-- Tu contenido va aquí -->
     <div class='tableauPlaceholder' id='viz1699906307704' style='position: relative'>
       <noscript>
         <a href='#'>
@@ -40,30 +16,9 @@
       </noscript>
       <object class='tableauViz' style='display:none;'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-        <param name='embed_code_version' value='3' />
-        <param name='site_root' value='' />
-        <param name='name' value='TP-VizElecciones/EleccionesTablero' />
-        <param name='tabs' value='no' />
-        <param name='toolbar' value='yes' />
-        <param name='static_image' value='https://public.tableau.com/static/images/TP/TP-VizElecciones/EleccionesTablero/1.png' />
-        <param name='animate_transition' value='yes' />
-        <param name='display_static_image' value='yes' />
-        <param name='display_spinner' value='yes' />
-        <param name='display_overlay' value='yes' />
-        <param name='display_count' value='yes' />
-        <param name='language' value='es-ES' />
-        <param name='filter' value='publish=yes' />
+        <!-- Resto del código -->
       </object>
     </div>
-    <script type='text/javascript'>
-      var divElement = document.getElementById('viz1699906307704');
-      var vizElement = divElement.getElementsByTagName('object')[0];
-      vizElement.style.width = '100%';
-      vizElement.style.height = '100%';
-      var scriptElement = document.createElement('script');
-      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-      vizElement.parentNode.insertBefore(scriptElement, vizElement);
-    </script>
-  </div>
+  </center>
 </body>
 </html>
